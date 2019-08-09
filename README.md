@@ -10,7 +10,7 @@ IEnumerable<IMidiOutputDevice> devices = MidiDeviceLocator.GetAllOutputDevices()
 /*
   Send a control change event.
 */
-MidiDeviceLocator.SelectForOutput(1)
+MidiDeviceLocator.SelectForOutput("DeviceId")
   .SetDefaultChannel(1) // DeviceId for the MIDI output device
   .ComposeControlChange()
     .WithControlNumber(63)
@@ -20,7 +20,7 @@ MidiDeviceLocator.SelectForOutput(1)
 /*
   Send a patch change event.
 */
-MidiDeviceLocator.SelectForOutput(1)
+MidiDeviceLocator.SelectForOutput("DeviceId")
   .SetDefaultChannel(1) // DeviceId for the MIDI output device
   .ComposePatchChange()
     .WithPatchNumber(12)
