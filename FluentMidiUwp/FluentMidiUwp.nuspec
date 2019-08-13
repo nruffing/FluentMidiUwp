@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>nruffing.fluentmidiuwp</id>
+    <version>1.0.0</version>
+    <title>FluentMidiUwp</title>
+    <authors>Nicholas Ruffing</authors>
+    <owners>Nicholas Ruffing</owners>
+    <projectUrl>https://github.com/nruffing/FluentMidiUwp</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A fluent library for sending MIDI control and patch change events from a Universal Windows Platform (UWP) application.</description>
+    <copyright>Copyright 2019</copyright>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/nruffing/FluentMidiUwp" />
+  </metadata>
+</package>
